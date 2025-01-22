@@ -258,7 +258,7 @@ async def handle_top_skills(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Настройка бота
 def main():
-    app = ApplicationBuilder().token('8094372722:AAHABJ3fRfnB3uVZ5zwSo0ZQarhG9p71Sew').build()  # Замените 'YOUR_TELEGRAM_BOT_TOKEN' на ваш токен
+    app = ApplicationBuilder().token('ТОКЕН').build()  
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("vacancy", handle_vacancy))
